@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color:#1B244A;
+    text-align: center;
+ 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+#heading{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    
+}
+
+#score1{
+    margin-top:0;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: #F94F6D;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 20px
+}
+
+#score2{
+    margin-top:0;
+     font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    color: #F94F6D;
+    padding:10px 5px 10px 5px;
+    margin-bottom: 20px
+}
+
+button{
+      font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding-left:10px;
+    padding-right: 10px; 
+    font-weight: bold
+    
+}
+button:hover{
+    background-color: lightgrey
+    
+}
+
+#newgame{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold
+    
+}
+#newgame:hover{
+    background-color: lightgrey
+}
